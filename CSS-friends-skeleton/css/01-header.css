@@ -1,2 +1,32 @@
 /* PHASE 1: Header */
 
+body {
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.header {
+    background: plum;
+    color: white;
+    border-bottom: 1px solid slategray;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header-logo {
+    border-right: 1px solid slategray;
+    font-weight: 700;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-list > li {
+    border-left: 1px solid slategray;
+}
